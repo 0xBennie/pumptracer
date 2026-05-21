@@ -1,0 +1,33 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pumptracer",
+  "metadata": {
+    "description": "Orderbook forensics for Binance perpetual futures — 8 manipulation fingerprints trained on 793 real pump/dump cases."
+  },
+  "owner": {
+    "name": "0xBennie",
+    "github": "0xBennie"
+  },
+  "plugins": [
+    {
+      "name": "pumptracer",
+      "description": "Orderbook forensics skill for Binance USDT perpetual futures. Replays historical depth data into K-line + 1% cumulative depth charts + manipulation narrative. 8 fingerprint detectors (bid_wall_pull, flash_dump, distribution_wall, lopsided_book, pump_continuation, breakout, rapid_pump_distribution) trained on 793 real cases.",
+      "version": "1.2.0",
+      "author": {
+        "name": "0xBennie"
+      },
+      "source": "./",
+      "category": "trading",
+      "homepage": "https://github.com/0xBennie/pumptracer",
+      "tags": [
+        "orderbook",
+        "trading",
+        "crypto",
+        "binance",
+        "forensics",
+        "pump-dump",
+        "manipulation"
+      ]
+    }
+  ]
+}
